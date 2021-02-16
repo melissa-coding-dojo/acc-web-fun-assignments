@@ -1,0 +1,42 @@
+@import './less/basics.less';
+
+body {
+    background-color: @bg;
+    .flexcolumn();
+
+    table {
+        color: @redfont;
+        border-spacing: 1px;
+        font-size: .8em;
+
+        tr {
+            td {
+                .element {
+                    border: @border;
+                    text-align: center;
+                    width: 53px;
+                }
+                .blue {
+                    background-color: @bluebg;
+                    color: @bluefont;
+                }
+                .yellow {
+                    background-color: @yellowbg;
+                    color: @yellowfont;
+                }
+                .pink {
+                    background-color: @pinkbg;
+                    color: @pinkfont;
+                }
+                .green {
+                    background-color: @greenbg;
+                    color: @greenfont;
+                }
+            }
+            .blank {
+                height: 30px;
+            }
+        }
+    }
+
+}

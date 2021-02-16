@@ -1,0 +1,48 @@
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body table {
+  color: #ff0000;
+  border-spacing: 1px;
+  font-size: 0.8em;
+}
+body table tr td .element {
+  border: 2px solid #808080;
+  text-align: center;
+  width: 53px;
+}
+body table tr td .blue {
+  background-color: #6492ff;
+  color: #2f00bd;
+}
+body table tr td .yellow {
+  background-color: #ffcf00;
+  color: #280098;
+}
+body table tr td .pink {
+  background-color: #ff9392;
+  color: #2b00a8;
+}
+body table tr td .green {
+  background-color: #00d400;
+  color: #2d00a9;
+}
+body table tr .blank {
+  height: 30px;
+}
