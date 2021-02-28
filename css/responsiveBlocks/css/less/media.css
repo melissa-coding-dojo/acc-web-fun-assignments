@@ -1,0 +1,29 @@
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.flexcolumm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 1023px) {
+  body #wrapper #navigation {
+    display: none;
+  }
+  body #wrapper #main_content {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body #wrapper #main_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
