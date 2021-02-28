@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body section {
+  background-color: #808080;
+  width: 95%;
+}
+body section p {
+  padding: 1em;
+}
+body section p span {
+  font-weight: bold;
+}
+body .header {
+  margin: 1em;
+}
+body .header h1 {
+  background-color: #808080;
+  text-align: left;
+  padding: 1em;
+}
+body .responsive {
+  background-color: #d3d337;
+  margin: 1em;
+}
+body .responsive .tablet {
+  display: none;
+}
+body .responsive .phone {
+  display: none;
+}
+@media only screen and (max-width: 1023px) {
+  body .responsive .desktop {
+    display: none;
+  }
+  body .responsive .tablet {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body .responsive .tablet {
+    display: none;
+  }
+  body .responsive .phone {
+    display: flex;
+  }
+}
