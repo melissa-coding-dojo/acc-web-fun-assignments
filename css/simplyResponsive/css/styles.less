@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    section {
+        background-color: #808080;
+        width: 95%;
+
+        p {
+            padding: 1em;
+
+            span {
+                font-weight: bold
+            }
+        }
+    }
+    .header {
+        margin: 1em;
+        h1 {
+            background-color: #808080;
+            text-align: left;
+            padding: 1em;
+        }
+    }
+    .responsive {
+        background-color: #d3d337;
+        margin: 1em;
+
+        .tablet {
+            display: none;
+        }
+        .phone {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    body {
+        .responsive {
+            .desktop {
+                display: none;
+            }
+            .tablet {
+                display: flex;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        .responsive {
+            .tablet {
+                display: none;
+            }
+            .phone {
+                display: flex;
+            }
+        }
+    }
+}
