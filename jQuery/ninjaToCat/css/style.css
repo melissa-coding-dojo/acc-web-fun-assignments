@@ -1,8 +1,11 @@
-#container {
+.container {
     padding: 20px;
     display: flex;
     flex-direction: column;
 }
 img {
     align-self: center;
+}
+.octocat {
+    width: 30%;
 }
