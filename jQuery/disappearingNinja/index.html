@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disappearing Ninja</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+	<script>
+		$('document').ready(function(){
+			$('img').click(function(){
+				$(this).hide();
+			})
+
+			$('button').click(function(){
+				$('img').show();
+			})
+		})
+	</script>
+</head>
+<body>
+	<a href='../../index.html'>Back</a>
+    <div id="container">
+		<h1>Disappearing Octocats</h1>
+		<p>Click on any of the images below and watch it disappear. click the 'restore' button to restore the images.</p>
+		
+		<div id="images">
+			<a href="#"><img src="images/bookWorkOctocat.png" alt="Book Worm Octocat"></a>
+			<a href="#"><img src="images/computerOctocat.png" alt="Computer Octocat"></a>
+			<a href="#"><img src="images/investigativeOctocat.png" alt="Investigative Octocat"></a>
+			<a href="#"><img src="images/madScientistOctocat.png" alt="Mad Scientist Octocat"></a>
+			<a href="#"><img src="images/powerOctocat.png" alt="Super Power Octocat"></a>
+			<a href="#"><img src="images/wizardOctocat.png" alt="Wizard Octocat"></a>
+		</div> <!-- End of iamges -->
+		<button>Restore Images</button>
+	</div>  <!-- End of container -->
+</body>
+</html>

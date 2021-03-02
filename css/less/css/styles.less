@@ -1,0 +1,62 @@
+@import './less/basics.less';
+
+a {
+    color: @font;
+    text-decoration: none;
+}
+
+body {
+    .flexcolumn();
+    background-color: @font;
+
+    header {
+        .flexrow();
+        color: @font;
+        background-color: @bg;
+        width: 95%;
+
+        h1 {
+            margin: 2em;
+        }
+        nav {
+            margin: 1em;
+
+            a {
+                border: 3px double @font;
+                padding: 1em;
+                border-radius: 20%;
+                margin: 1em;
+            }
+        }
+    }
+    .main {
+        .flexcolumn();
+        background-color: @font;
+        color: @bg;
+        width: 95%;
+        margin: 1em;
+
+        .one {
+            .flexcolumn();
+
+            span {
+                font-size: 1.5em;
+            }
+        }
+        .two {
+            .flexcolumn();
+
+            p {
+                font-style: italic;
+                font-size: 1.1em;
+            }
+        }
+    }
+    footer {
+        .flexcolumn();
+        background-color: @bg;
+        color: @font;
+        margin: 1em;
+        width: 95%;
+    }
+}

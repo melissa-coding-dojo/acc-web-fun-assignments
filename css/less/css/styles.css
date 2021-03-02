@@ -1,0 +1,83 @@
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  color: cyan;
+  text-decoration: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+}
+body header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: cyan;
+  background-color: darkcyan;
+  width: 95%;
+}
+body header h1 {
+  margin: 2em;
+}
+body header nav {
+  margin: 1em;
+}
+body header nav a {
+  border: 3px double cyan;
+  padding: 1em;
+  border-radius: 20%;
+  margin: 1em;
+}
+body .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  color: darkcyan;
+  width: 95%;
+  margin: 1em;
+}
+body .main .one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .main .one span {
+  font-size: 1.5em;
+}
+body .main .two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .main .two p {
+  font-style: italic;
+  font-size: 1.1em;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: darkcyan;
+  color: cyan;
+  margin: 1em;
+  width: 95%;
+}
