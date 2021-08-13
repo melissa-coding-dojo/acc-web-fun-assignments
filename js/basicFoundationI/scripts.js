@@ -79,14 +79,14 @@ console.log(average([100,95,80,75,100])) // 90
 
 // #7 Return all odd numbers 1-50
 
-function oddOnly() {
-    var arr = []
-    for (var i = 1; i < 50; i+=2) {
-        arr.push(i)
+function oddOnly() { // create the function
+    var arr = [] // create empty array for values be pushed into
+    for (var i = 1; i < 50; i+=2) { // for loop starting at 1st odd (1) go t0 50 increase increase i by 2 each 
+        arr.push(i) // taking current value of i and adding to array
     }
-    return arr
+    return arr  // return array to webpage
 }
-console.log(oddOnly())
+console.log(oddOnly()) // activate function and console log results
 
 // #8 Return the # of values that are greater than Y
 
